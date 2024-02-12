@@ -1,4 +1,4 @@
-package org.example.TaskOne;
+package org.example.MandagOgTirsdag.TaskOne;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -20,6 +20,7 @@ class Main {
                 }
             }
         };
+
         t.start();
         System.out.println( "Main is done" );
     }
