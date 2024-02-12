@@ -1,4 +1,4 @@
-package org.example.OnsdagOgTorsdag.TaskOne.TaskTwo.TaskFour;
+package org.example.OnsdagOgTorsdag.TaskThree;
 
 public class Main {
     public static void main(String[] args) {
