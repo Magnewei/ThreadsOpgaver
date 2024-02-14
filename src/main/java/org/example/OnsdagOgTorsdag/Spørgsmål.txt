@@ -1,0 +1,35 @@
+1. En tråd giver mulighed for concurrency. Den kan køre en del af koden parallelt med main.
+
+2. En proces kan godt bestå af flere tråde, og derved blive splittet op i flere dele.
+
+3. start() er den metode man bruger til at starte en bestemt tråd.
+
+4. run() er der hvor man skriver hvad en runnable skal køre når den bliver kaldt.
+
+5. At den kan holde pause i x millisekunder.
+
+6. At trådene kan vente på hinanden. Specifikt at få hovedtråden ti lat vente på undertråde.
+
+7. Den bruges til at hente trådens navn.
+
+8. Ligesom en runnable, den kaster dog ikke exceptions, og en runnable returnerer ikke et resultat.
+
+9. En executorService er en måde at samle x tråde, og derigennem løse de opgaver man sender med submit().
+
+10. At man kan sende opgaver til executorService.
+
+11. En Future<datatype>, som kan holde forskellige datatyper
+
+12. En Future gætter på hvad for en datatype en task returnerer, og når den datatyper bliver returneret, kan den blive gemt ordentligt.
+
+13. Du henter dit data ud af din Future.
+
+14. At få at vide om den har kørt sin task.
+
+15. Sørger for at allerede igangsatte tasks bliver færdiggjort.
+
+16. At man definerer hvor mange tråde man vil bruge.
+
+17. At man ikke definerer antallet af tråde, men i stedet lader programmet finde ud af det selv.
+
+18. Et loop til at bruge submit(), et loop til at bruge get().
